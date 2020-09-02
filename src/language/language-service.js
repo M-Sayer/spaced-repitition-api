@@ -28,6 +28,25 @@ const LanguageService = {
       )
       .where({ language_id })
   },
+  //get head from language
+  getLanguageHead(db, languageId) {
+    return db('word')
+      .join('language', {'word.id': 'language.head'})
+      .select()
+      .where({'language.id': languageId})
+  },
+  //get next word for quiz
+  getNextWord(db, next) {
+    return db('word')
+      .select()
+      .where({'id': next})
+  }
+
+  //correct count for next word
+
+  //incorrect count for next word
+
+  //total score for user thus far
 }
 
 module.exports = LanguageService

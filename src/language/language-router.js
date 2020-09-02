@@ -44,9 +44,26 @@ languageRouter
   })
 
 languageRouter
+  .use(requireAuth)
   .get('/head', async (req, res, next) => {
-    // implement me
-    res.send('implement me!')
+    // return word at head/top of list
+    // get user from req.body, get use language from user table, get head from language table
+    const userId = req.user.id;
+    const db = req.app.get('db');
+
+    const userLanguage = await LanguageService.getUsersLanguage(db, userId);
+    const head = await LanguageService.getLanguageHead(db, userLanguage.id);
+
+
+
+    const response = {
+      nextWord: head[0].original,
+      wordCorrectCount: head[0].correct_count,
+      wordIncorrectCount: head[0].incorrect_count,
+      totalScore: head[0].total_score,
+    }
+   
+    res.send(response)
   })
 
 languageRouter
