@@ -33,7 +33,6 @@ https://github.com/MattDizzle/favicon-host/blob/master/Registration.JPG?raw=true
 POST  
 https://secret-brushlands-54692.herokuapp.com/api/user
 
-
 Required body format:
 {
     "name": "Drake",
@@ -41,9 +40,9 @@ Required body format:
     "password": "IbLooW1$"
 }
 
+
 POST  
 https://secret-brushlands-54692.herokuapp.com/api/auth
-
 
 Required body format:
 {
@@ -56,6 +55,7 @@ example:
 {
     "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJuYW1lIjoiRHJhb2UiLCJpYXQiOjE1OTkzMzc2ODYsImV4cCI6MTU5OTM0ODQ4Niwic3ViIjoiYXVicmV5In0.4yyNvg2_aqfjskCvA-7Xy32YIe48vCAsvIbG3so7r6k"
 }
+
 
 GET 
 https://secret-brushlands-54692.herokuapp.com/api/language
