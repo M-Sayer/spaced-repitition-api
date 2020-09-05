@@ -201,6 +201,28 @@ example:
     "totalScore": 9
 }
 
+# About the Technology Stack
+
+Front-end technologies:
+
+HTML5, CSS3, Javascript, React, JSX
+
+Server technologies:
+
+​Express, Morgan, Helmet, Path, JsonWebToken, XSS, pg, Dotenv, Cors, Postgrator, Supertest
+
+Data Persistence:
+
+PostgreSQL
+
+Hosting/SaaS:
+Vercel
+Heroku
+
+​Development Environment
+
+Node.js
+
 ## Local dev setup
 
 If using user `dunder-mifflin`:
