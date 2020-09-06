@@ -74,7 +74,7 @@ Bearer Token required.
 
 Returns an object of the current head or word a person is learning.
 example:
-{
+```{
 "language": {
 "id": 4,
 "name": "French",
@@ -194,7 +194,8 @@ example:
 "head": 32
 }
 ]
-}
+} 
+```
 
 GET
 https://secret-brushlands-54692.herokuapp.com/api/language/head
@@ -203,12 +204,13 @@ Bearer Token required.
 
 Returns an object of the current head or word a person is learning.
 example:
-{
+```{
 "nextWord": "merci",
 "wordCorrectCount": 2,
 "wordIncorrectCount": 0,
 "totalScore": 9
 }
+```
 
 ## About the Technology Stack
 
