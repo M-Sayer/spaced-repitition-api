@@ -20,9 +20,8 @@ Users can login and learn French using thier user name and password.
 
 Users learn new words through spaced-repetition.
 
----
-
----
+_______________________________________________________________________________
+_______________________________________________________________________________
 
 ## Screenshots
 
@@ -37,6 +36,9 @@ Learn:
 
 Registration:
 ![Spaced-Repetition Screenshot: Registration](https://github.com/MattDizzle/favicon-host/blob/master/Registration.JPG?raw=true)
+
+________________________________________________________________________________
+________________________________________________________________________________
 
 ## API Documentation
 
