@@ -74,7 +74,8 @@ Bearer Token required.
 
 Returns an object of the current head or word a person is learning.
 example:
-```{
+```
+{
 "language": {
 "id": 4,
 "name": "French",
@@ -192,8 +193,7 @@ example:
 "correct_count": 0,
 "incorrect_count": 0,
 "head": 32
-}
-]
+}]
 } 
 ```
 
@@ -204,7 +204,8 @@ Bearer Token required.
 
 Returns an object of the current head or word a person is learning.
 example:
-```{
+```
+{
 "nextWord": "merci",
 "wordCorrectCount": 2,
 "wordIncorrectCount": 0,
